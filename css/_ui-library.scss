@@ -1,0 +1,74 @@
+$selection-color: #323A45;
+$selection-color-text: #D8D8D8;
+
+::-moz-selection {
+    background: $selection-color;
+    text-shadow: none;
+    color: $selection-color-text;
+}
+
+::selection {
+    background: $selection-color;
+    text-shadow: none;
+    color: $selection-color-text;
+}
+
+.l-section {
+    margin: 3rem 6rem 0 6rem;
+
+    h2 {
+        font-size: 3.6rem;
+        color: #D8D8D8;
+        line-height: 5.5rem;
+        text-align: center;
+        margin: 0 auto;
+        width: 30rem;
+        height: 5.5rem;
+        border-radius: 7px;
+        background: #323A45;
+
+        @media screen and (max-width: 520px) {
+        	display: block;
+        	width: 100%;
+        	color: #000;
+        	background: none;
+        	text-align: right;
+    	}
+    }
+
+    h3 {
+        font-size: 3.2rem;
+        color: #B6B6B6;
+        line-height: 0rem;
+        text-align: center;
+        margin: 2rem;
+
+        @media screen and (max-width: 520px) {
+        	margin: 0;
+        	text-align: right;
+    	}
+    }
+
+     @media screen and (max-width: 520px) {
+        margin: 2rem 1rem 0 1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
