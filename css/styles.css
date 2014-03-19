@@ -391,39 +391,6 @@ th {
   text-shadow: none;
   color: #d8d8d8; }
 
-.l-section {
-  margin: 3rem 6rem 0 6rem; }
-  .l-section h2 {
-    font-size: 3.6rem;
-    color: #D8D8D8;
-    line-height: 5.5rem;
-    text-align: center;
-    margin: 0 auto;
-    width: 30rem;
-    height: 5.5rem;
-    border-radius: 7px;
-    background: #323A45; }
-    @media screen and (max-width: 520px) {
-      .l-section h2 {
-        display: block;
-        width: 100%;
-        color: #000;
-        background: none;
-        text-align: right; } }
-  .l-section h3 {
-    font-size: 3.2rem;
-    color: #B6B6B6;
-    line-height: 0rem;
-    text-align: center;
-    margin: 2rem; }
-    @media screen and (max-width: 520px) {
-      .l-section h3 {
-        margin: 0;
-        text-align: right; } }
-  @media screen and (max-width: 520px) {
-    .l-section {
-      margin: 2rem 1rem 0 1rem; } }
-
 html {
   font-size: 62.5%; }
   @media screen and (max-width: 960px) {
